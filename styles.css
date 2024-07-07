@@ -61,6 +61,7 @@ nav a:hover {
   background-color: skyblue; 
   padding: 15px;
   border: 2px solid black;  
+  position: relative;
 }
 .related-product img {
    width: 100%;
@@ -70,67 +71,33 @@ nav a:hover {
 .related-product-name {
    width: 100%;
    text-align: center;
-   padding-right: 10px;
    padding-bottom: 10px;
-   background-color:teal ;
+   background-color:rgba(0, 128, 128, 0.71) ;
    color: white ;
-   border: 2px solid black;
    margin-right: auto;
    margin-left: auto;
    visibility: hidden;
+   position: absolute;
+   bottom: 0;
+   left: 0;
+   right: 0;
 }
 .related-product:hover .related-product-name {
     visibility: visible;
 }
 footer {
-    color: teal;
+    background-color: teal;
     padding: 10px 0;
     text-align: center;
     font-size: 30px;
+    color: white;
 }
 
-
-
-
-
-
-nav {
-   background-color:teal;
-   width: 100%;
-   height: 50px;
-   display: flex;
-   justify-content: right;
-   padding-right: 10px;
-   border: 2px solid black;
-}
-
-nav a {
-     color: white;
-     text-decoration: none;
-     padding-top: 20px;
-     margin-right: 10px;
-     width: 80px;
-     text-transform: uppercase;
-}
-
-nav a:hover {
-   background-color:  skyblue; 
-   transition: 3s;
-}
 img {
    width: 100%;
    height:500px;
    /* position:fixed;*/
 } 
-.container {
-   background-color: pink;
-   width: 1000px;
-   padding: 10px;
-   margin-left: auto;
-   margin-right: auto;
-   /* margin-top: 60px; */
-   padding-top:30px;
-}
 .img-container {
    position: relative;
 
@@ -166,12 +133,6 @@ img {
 }
 .team .member .name {
    font-weight: bold;
-}
-footer {
-    color: teal;
-    padding: 10px 0;
-    text-align: center;
-    font-size: 30px;
 }
 
 
