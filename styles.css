@@ -9,6 +9,11 @@ nav {
    justify-content: right;
    padding-right: 10px;
    border: 2px solid black;
+   position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1;
 }
 
 nav a {
